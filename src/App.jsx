@@ -1,4 +1,5 @@
 import { FaChevronDown, FaTimes } from 'react-icons/fa';
+import Icon from './components/Icon';
 import './App.scss';
 
 function App() {
@@ -10,8 +11,8 @@ function App() {
           <h3 className="faq-title">Why shouldn't we trust atoms</h3>
           <p className="faq-text">They make up everything.</p>
           <button className="faq-toggle">
-            <FaChevronDown className="fa-chevron-down" />
-            <FaTimes className="fa-times" />
+            <Icon icon={<FaChevronDown />} className="fa-chevron-down" />
+            <Icon icon={<FaTimes />} className="fa-times" />
           </button>
         </div>
 
@@ -21,8 +22,8 @@ function App() {
           </h3>
           <p className="faq-text">Inheritance.</p>
           <button className="faq-toggle">
-            <FaChevronDown className="fa-chevron-down" />
-            <FaTimes className="fa-times" />
+            <Icon icon={<FaChevronDown />} className="fa-chevron-down" />
+            <Icon icon={<FaTimes />} className="fa-times" />
           </button>
         </div>
 
@@ -32,8 +33,8 @@ function App() {
           </h3>
           <p className="faq-text">Ten-tickles!</p>
           <button className="faq-toggle">
-            <FaChevronDown className="fa-chevron-down" />
-            <FaTimes className="fa-times" />
+            <Icon icon={<FaChevronDown />} className="fa-chevron-down" />
+            <Icon icon={<FaTimes />} className="fa-times" />
           </button>
         </div>
 
@@ -41,8 +42,8 @@ function App() {
           <h3 className="faq-title">What is: 1 + 1?</h3>
           <p className="faq-text">Depends on who are you asking.</p>
           <button className="faq-toggle">
-            <FaChevronDown className="fa-chevron-down" />
-            <FaTimes className="fa-times" />
+            <Icon icon={<FaChevronDown />} className="fa-chevron-down" />
+            <Icon icon={<FaTimes />} className="fa-times" />
           </button>
         </div>
       </div>
