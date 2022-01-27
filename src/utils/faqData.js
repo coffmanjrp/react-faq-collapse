@@ -1,26 +1,27 @@
 const faqData = [
   {
     id: 1,
-    title: "Why shouldn't we trust atoms",
-    text: 'They make up everything.',
+    title: 'What is the code editor you prefer?',
+    text: 'VScode',
     active: false,
   },
   {
     id: 2,
-    title: "What's the object-oriented way to become wealthy?",
-    text: 'Inheritance.',
+    title: 'What is your favorite javascript framework?',
+    text: 'React',
     active: false,
   },
   {
     id: 3,
-    title: 'How many tickles does it take to tickle an octopus?',
-    text: 'Ten-tickles!',
+    title:
+      'Give me an example of your favorite react library that you have worked with?',
+    text: 'Recoil is my favorite react state management library',
     active: false,
   },
   {
     id: 4,
     title: 'What is: 1 + 1?',
-    text: 'Depends on who are you asking.',
+    text: '10',
     active: false,
   },
 ];
